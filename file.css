@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#heador{
+  
+    height: 70px;
+    /* background-color: rgb(32, 1, 1); */
+    background-color: black;
+    
+    color: white;
+    /* border: 1px solid brown; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 5px 3px wheat;
+    
+}
+
+/* a{
+    
+    padding-left: 150px;
+    padding-top: 1rem;
+    display: inline;
+    margin-top: 15px;
+    font-size: 1.5em;
+    
+    
+    
+} */
+a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 14vw;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+#buto{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 18px;
+    width: 5rem;
+    height: 2rem;
+    background-color: wheat;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+#buto:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid wheat;
+}
+#signit{
+    background-color: black;
+    padding-top: 50px;
+    height: 100vh;
+
+}
+#image{
+    width: 10%;
+    height: 100%; 
+    background-color: white;
+    background-image: url("img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: rgb(32, 1, 1); */
+    /* background-color: black; */
+}
+/* #im{
+    width: 1200px;
+    height: 400px;
+    padding-left: 50px;
+} */
+#main{
+    background-color: black;
+}
+#main2{
+    /* width: 1262.60px; */
+    height: 115vh;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2em;
+    line-height: 4.5rem;
+    border-bottom: 3px dashed blanchedalmond;
+
+}
+#About{
+    background-color: black;
+    border-bottom: 3px dashed white;
+    height: 1000px;
+}
+p{
+    color: rgb(242, 238, 238);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.25em;
+    padding-top: 50px;
+    padding-left: 30px;
+    
+
+}
+h3{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3em;
+    padding-left: 15px;
+   
+}
+.lc{
+    width: 37vw;
+    height: 30rem;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: 1.5px solid blueviolet;
+    margin-left: 8%;
+    margin-top: 30px;
+    border-radius: 5px;
+    transition: transform .1s;
+    
+}
+.lc:hover{
+    transform: scale(1.05,1.05);
+    cursor: pointer;
+}
+#out{
+    display: flex;
+    height: 215vh;
+    flex-wrap: wrap;
+   
+    align-items: center;
+    padding-right: 5px;
+    background-color: black;
+    border-bottom: 3px dashed white;
+    
+    
+    
+
+}
+.gc{
+
+}
+#services{
+    color: white;
+    background-color: black;
+    padding-top: 30px;
+}
+.contactsection{
+    background-color: black;
+    height:100vh;
+      padding-top: 50px;
+}
+h1{
+    color: wheat;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 2em;
+}
+.paras{
+    margin-top: -20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    margin-left: -12px;
+}
+#gh{
+    border: 1px solid blueviolet;
+}
+.lc:hover{
+    box-shadow: 5px 5px 5px wheat;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+#sign{
+    margin-left: 10rem;
+    margin-top: 1px;
+    width: 4.5rem;
+    height: 2rem;
+    font-weight: 1000;
+    cursor: pointer;
+}
+
+.lv:hover{
+    background-color: rgb(176, 176, 176);
+    border-radius: 3px;
+    box-shadow: 2px 2px wheat;
+    color: black;
+
+}
+.iot{
+    width: 100%;
+}
+#contact{
+    background-color: black;
+    height: 100vh;
+    margin-top: -15px;
+}
+#lip{
+    margin-left: 45%;
+    margin-top: 20%;
+}
+#op{
+    background-color: black;
+    color: white;
+    margin-top: -16px;
+    height: 5rem;
+    padding-left: 40%;
+    padding-bottom: 20px;
+}
+
+@media (max-width : 1005px){
+    .anch{
+        margin-left: 11%;
+
+    }
+}
+@media (max-width : 800px){
+    .anch{
+        margin-left: 5%;
+
+    }
+}
+@media (max-width : 560px){
+    .anch{
+        margin-left: 3%;
+
+    }
+    #buto{
+        margin-left: 5%;
+    }
+}
+@media (max-width : 480px){
+    .anch{
+        margin-left: 1.5%;
+
+    }
+    #buto{
+        margin-left: 2.5%;
+    }
+}
+@media (max-width : 1024px){
+    #main2{
+        height: 100%;
+    }
+}
+@media (max-width : 562px){
+    #About{
+        height: 100%;
+    }
+}
+
+#signup-form-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #1a1a1a; /* Slightly lighter black */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Form Title */
+  #signup-form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  #signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label Styling */
+  #username-label,
+  #signup-email-label,
+  #password-label,
+  #confirm-password-label {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: white;
+  }
+  
+  /* Input Styling */
+  #username-input,
+  #signup-email-input,
+  #password-input,
+  #confirm-password-input {
+    background: #333; /* Dark grey for inputs */
+    color: #fff; /* White text for inputs */
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  /* Input Focus Styles */
+  #username-input:focus,
+  #signup-email-input:focus,
+  #password-input:focus,
+  #confirm-password-input:focus {
+    border-color: #28a745; /* Green focus color */
+    outline: none;
+  }
+  
+  /* Submit Button Styling */
+  #signup-submit-button {
+    background: #28a745; /* Green button */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #signup-submit-button:hover {
+    background: #1c7a33; /* Darker green on hover */
+  }
+
+#contact-form-container {
+    max-width: 500px;
+    margin:  auto;
+    padding: 20px;
+    background: #1a1a1a; /* Slightly lighter black */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Form Title */
+  #form-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label Styling */
+  #name-label,
+  #email-label,
+  #subject-label,
+  #message-label {
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: white;
+  }
+  
+  /* Input and Textarea Styling */
+  #name-input,
+  #email-input,
+  #subject-input,
+  #message-input {
+    background: #333; /* Dark grey for inputs */
+    color: #fff; /* White text for inputs */
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  /* Focus Styles */
+  #name-input:focus,
+  #email-input:focus,
+  #subject-input:focus,
+  #message-input:focus {
+    border-color: #007BFF; /* Blue focus color */
+    outline: none;
+  }
+  
+  /* Submit Button Styling */
+  #submit-button {
+    background: #007BFF; /* Blue button */
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #submit-button:hover {
+    background: #0056b3; /* Darker blue on hover */
+  }
